@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NEW ACCOUNT</title>
+    <style>
+        #div1{
+            height: 300px;
+            width: 400px;
+            border: red groove;
+            background-color: steelblue;
+            margin-top: 200px;
+           
+        }
+      td{
+        padding: 10px;
+      }
+       body{
+        background-color: black;
+       }
+       #div2{
+        margin-top: 10px;
+       }
+    </style>
+</head>
+<body>
+    <form action="NewAccount" method="post">
+        <center>
+            <div id="div1">
+                <h2>NEW ACCOUNT</h2>
+               <table>
+                <tr>
+                    <td>NAME</td>
+                    <td>:</td>
+                    <td><input type="text" placeholder="enter your name" name="name"></td>
+                </tr>
+                <tr>
+                    <td>MOBILE NUMBER</td>
+                    <td>:</td>
+                    <td><input type="number" placeholder="enter mobile number" name="mobileno"></td>
+                </tr>
+                <tr>
+                    <td>P I N</td>
+                    <td>:</td>
+                    <td><input type="password" type="number" placeholder="enter your four digit pin" name="pin"></td>
+                </tr>
+                <tr>
+                    <td>CONFRM PIN</td>
+                    <td>:</td>
+                    <td><input type="password" type="number" placeholder="enter your four digit pin"name="cnfpin"></td>
+                </tr>
+               </table>
+               <table id="div2">
+                <tr>
+                    <td></td>
+                    <td><input type="submit"></td>
+                    <td></td>
+                </tr>
+               </table>
+            </div>
+    </form>
+    </center>
+</body>
+</html>
